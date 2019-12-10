@@ -11,6 +11,9 @@ html,body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
 }
 .logos{
  display: inline-flex;
