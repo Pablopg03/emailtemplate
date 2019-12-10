@@ -12,6 +12,9 @@ html,body{
   background-position: center;
   background-size: contain;
 }
+.logos{
+ display: inline-flex;
+}
 .logo-openmrs{
   background-image:url("https://pablopg03.github.io/assets/images/openmrs-logo.jpg");
   width: 75px;
