@@ -10,6 +10,19 @@ html,body{
   max-height: 75px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+  display: inline;
+}
+.logo-openmrs{
+  background-image:url("https://pablopg03.github.io/assets/images/openmrs-logo.jpg");
+  width: 75px;
+  height: 75px;
+  max-width: 75px;
+  max-height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline;
 }
 header{
   background: #ffffff;
