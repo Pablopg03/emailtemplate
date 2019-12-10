@@ -15,8 +15,42 @@ html,body{
   right: 0;
   margin-right: 5px;
 }
+.logos > h1{
+  font-family: Arial;
+  color:#4e4e4d;
+}
+.presentation-content{
+  display: flex;
+align-items: center;
+}
+.presentation{
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 10px;
+  width: 80%;
+  height: 27%;
+  background: #FFEB3B;
+  box-shadow: 0px 1px 28px -13px #000;
+right: 10%;
+left:10%;
+border-radius: 30px;
+}
+.presentation > h2{
+  text-align: center;
+  font-family: Arial;
+  font-size: 2em;
+}
+.presentation > p{
+  text-align: center;
+  font-family: Arial;
+}
 .logos{
  display: inline-flex;
+}
+.summary{
+  font-family: Arial;
+  font-size: 3em;
+  margin-left: 10px;
 }
 .logo-openmrs{
   background-image:url("https://pablopg03.github.io/assets/images/openmrs-logo.jpg");
