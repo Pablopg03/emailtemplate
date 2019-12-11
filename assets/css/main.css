@@ -43,7 +43,6 @@ align-items: center;
   background: #FFEB3B;
   box-shadow: 0px 1px 28px -13px #000;
 right: 10%;
-left:10%;
 border-radius: 30px;
 }
 .presentation > h2{
@@ -52,6 +51,7 @@ border-radius: 30px;
   font-size: 2em;
 }
 .presentation > p{
+  font-size: 1.25em;
   text-align: center;
   font-family: Arial;
 }
@@ -113,6 +113,23 @@ border-radius: 30px;
   background-position: center;
   background-size: contain;
 }
+.logo-reformed{
+  border-radius: 200px !important;
+  margin:0 auto !important;
+}
+.logo-reformed::before{
+  display:inline-block;
+  height:75px;
+  width:75px;
+  margin-right: 5px;
+  content: "";
+  background:url("https://pablopg03.github.io/assets/images/crown.png") no-repeat 0 0;
+  background-size: 75px 75px;
+  position: relative;
+  transform: rotate(-25deg);
+  top: -40px;
+  left: -20px;
+}
 .logo-openmrs{
   background-image:url("https://pablopg03.github.io/assets/images/openmrs-logo.jpg");
   width: 75px;
@@ -122,6 +139,9 @@ border-radius: 30px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+.logo-openmrs > h1 {
+  margin-left: 85px;
 }
 header{
   background: #ffffff;
@@ -133,20 +153,65 @@ header{
   height: 75px;
 }
 .footer{
-  width: 100%;
-  height: 20%;
+  margin: 0 auto;
+  width: auto;
+  padding: 10%;
   background: #1976d2;
-  position: absolute;
   margin-top: 20px;
 }
-.content{
-
-  width: 700px;
-  height: 100vh;
+.user-profile{
+  max-width: 75px;
+  max-height: 75px;
+  border-radius: 200px;
+  margin: 0 auto;
+  margin-top: 0px;
 }
-@media (min-width: 700px) {
+.account > h2{
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin: 10px;
+}
+.account-section{
+  display: flex;
+  justify-content: center;
+}
+.account-box{
+  max-width: 500px;
+  margin:0 auto;
+  width: 80%;
+  height: 20%;
+  display: inline-flex;
+  justify-content: space-around;
+
+}
+.account{
+  display: grid;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px -5px #000;
+  background: #7e57c2;
+}
+.org{
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px -5px #000;
+  background: #388e3c;
+}
+.org > h2{
+  color:#fff;
+}
+.content{
+    height: 100vh;
+}
+@media (max-width: 700px) {
   .content{
-    width: 100%;
+    min-width: 600px;
+    width: inherit;
     height: 100vh;
   }
 }
